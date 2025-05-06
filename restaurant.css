@@ -1,0 +1,142 @@
+header{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+a:hover{
+    text-decoration: underline red 2px;
+}
+
+span{
+    color: red;
+}
+
+.section1{
+    padding-top:   100px;
+    padding-left: 300px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+h5{
+    border: 2px black solid;
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.photo1{
+    margin-left: 300px;
+    margin-top: -120px;
+}
+
+.souligner{
+    text-decoration:underline;
+    margin-top: 100px;
+    margin-left: 290px;
+}
+
+.photo2{
+    display: grid;
+    grid-template-columns:200px 200px 200px ;
+    gap: 200px;
+    margin-left: -150px;
+}
+
+.separer{
+    display: flex;
+    gap: 290px;
+    margin-left: -150px;
+}
+
+.separer1{
+    margin-left: -50px;
+}
+
+.bordure{
+    background-color: rgb(231, 69, 48);
+    padding: 40px;
+    color: white;
+    margin-left: -305px;
+    margin-right: -5px;
+}
+
+.centrer{
+    margin-left: 570px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.justifier{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -57px;
+    padding-bottom: 50px;
+}
+
+.centre{
+    font-size: 15px;
+    margin-left: 280px;
+    padding-top: 10px;
+}
+
+.centré{
+    font-size: 15px;
+    margin-left: 210px;
+    padding-top: 10px;
+}
+
+.photo3{
+    display: grid;
+    grid-template-columns:200px 200px 200px ;
+    grid-gap: 90px;
+}
+
+.centré1{
+    margin-left: 305px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ligne{
+    margin-left: 100px;
+}
+
+.centré2{
+    margin-left: 100px;
+}
+
+.centré3{
+    margin-left: 160px;
+}
+
+footer{
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.arrondi{
+    border-radius: 50%;
+}
+
+.arrondi1{
+    border: 2px white solid;
+}
